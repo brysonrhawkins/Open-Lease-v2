@@ -1,0 +1,239 @@
+.left-card{
+    position: absolute;
+    left: 0;
+    width: 13vw;
+    height: 94.25vh;
+    border: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: rgba(209, 210, 209, 0.334);
+    background-image: url("https://www.gstatic.com/mobilesdk/190424_mobilesdk/nav_nachos@2x.png");
+ 
+}
+
+
+.left-card-list{
+    list-style-type: none;
+}
+
+.left-card-list-button-one{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 15vh;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.left-card-list-button-one a{
+   text-decoration: none;
+   color: black;
+}
+
+.left-card-list-button-one a:hover{
+    text-decoration: none;
+    color: white;
+ }
+
+.left-card-list-button-two{
+    position: absolute;
+    left: 0;
+    top: 19vh;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.left-card-list-button-two a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .left-card-list-button-two a:hover{
+    text-decoration: none;
+    color: white;
+ }
+
+
+.left-card-list-button-three{
+    position: absolute;
+    left: 0;
+    top: 24vh;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    margin-top: 9px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.left-card-list-button-three a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .left-card-list-button-three a:hover{
+    text-decoration: none;
+    color: white;
+ }
+
+.left-card-list-button-four{
+    position: absolute;
+    left: 0;
+    top: 29vh;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.left-card-list-button-five{
+    position: absolute;
+    left: 0;
+    top: 34vh;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.left-card-list-button-four a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .left-card-list-button-four a:hover{
+    text-decoration: none;
+    color: white;
+ }
+
+ .left-card-list-button-five a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .left-card-list-button-five a:hover{
+    text-decoration: none;
+    color: white;
+ }
+
+.left-card-list-button-one:hover{
+    color: white;
+    background-color: rgb(80, 60, 211);
+    border-radius: 8px;
+}
+
+.left-card-list-button-two:hover{
+    color: white;
+    background-color: rgb(80, 60, 211);
+    border-radius: 8px;
+}
+
+.left-card-list-button-three:hover{
+    color: white;
+    background-color: rgb(80, 60, 211);
+    border-radius: 8px;
+}
+
+.left-card-list-button-four:hover{
+    color: white;
+    background-color: rgb(80, 60, 211);
+    border-radius: 8px;
+}
+
+.left-card-list-button-five:hover{
+    color: white;
+    background-color: rgb(80, 60, 211);
+    border-radius: 8px;
+}
+
+.left-card-list .icon {
+    position: absolute;
+    left: 0;
+    bottom: .7vh;
+    margin-left: 5px;
+}
+
+.left-card-list .icon:hover {
+    position: absolute;
+    left: 0;
+}
+
+.left-card h2 {
+    color: rgb(63, 39, 216);;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 3vh;
+}
+
+.center-card{
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+    left: 15%;
+    width: 55vw;
+    height: 45vh;
+}
+
+.top-carosel-menu{
+    
+}
+
+.top-carosel-select{
+    background-color: white;
+    margin: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.top-carosel-select:active{
+    background-color: grey;
+}
+
+.center-bottom-card{
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+    left: 15%;
+    bottom: 1vw;
+    width: 55vw;
+    height: 45vh;
+}
+
+.right-card{
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+    right: 0;
+    width: 25vw;
+    height: 65vh;
+    margin-right: 1vw;
+}

@@ -1,0 +1,73 @@
+.profile-card{
+    height: 45vh;
+}
+
+.profile-card-header{
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top:0 ;
+    border-left: 0;
+    border-right: 0;
+}
+
+.profile-card-icon{
+    position: absolute;
+    right: 0;
+    padding-top: 1vw;
+    padding-right: 1vw;
+}
+
+.profile-card-image-container{
+    background-color: white;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 25%;
+    height: 10vh;
+    border: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.profile-card-quick-info{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.profile-card-quick-info-list-item{
+    margin-top: 2vw;
+    display: inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: .5vw;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.profile-card-personal-info{
+    
+}
+
+.profile-card-personal-username{
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+} 
+
+.profile-card-personal-profession{
+    text-align: left;
+}
+
+.profile-card-personal-description{
+    text-align: left;
+}

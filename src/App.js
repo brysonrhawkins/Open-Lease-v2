@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SignIn from './Pages/Sign-In/signIn';
+import ViewAccount from './Pages/View-Account/viewAccount';
+import PostLease from './Pages/Post-Listing/postLease';
+import SearchListings from './Pages/Search-Listings/searchListings';
+
+// import firebase from "../src/Auth/Firebase.config.js";
 
 function App() {
+
+  // const [authUser, setAuthUser] = useState(null);
+
+  // useEffect(()=>{
+  //   firebase.auth().onAuthStateChanged(user=>{
+  //     setAuthUser(user);
+  //   });
+  // },[]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/Sign-Up" element={<SignIn/>}/>
+        <Route path="/Log-In" exact element={<SignIn />} />
+        <Route path='/Account' element={<ViewAccount/>} />
+        <Route path='/Post-Lease' element={<PostLease/>}/>
+        <Route path='/Search' element={<SearchListings/>}/>
+      </Routes>
+    </Router>
   );
 }
 
